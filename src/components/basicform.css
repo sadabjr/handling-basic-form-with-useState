@@ -1,0 +1,41 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+form{
+    margin: 5rem;
+    padding-top: 0.7rem;
+    background-color: rgb(79, 79, 220);
+    color: white;
+    height: 50vh;
+    min-width: 25vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    border-radius: 25px;
+}
+
+form div{
+    background-color: aliceblue;
+    margin: 10px;
+    padding: 5px 5px;
+    border: 1px solid rgba(213, 213, 213, 0.418);
+    border-radius: 25px;
+    color: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+form div input{
+    padding: 10px 5px 10px;
+    border: 1px solid rgba(213, 213, 213, 0.418);
+    border-radius: 25px;
+}
+
+
